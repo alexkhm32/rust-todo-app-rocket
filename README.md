@@ -18,4 +18,4 @@ A demonstration web application built with the Rust programming language and the
 3. [dotenv](https://crates.io/crates/dotenv) - to read dotenv file.
 4. [envy](https://crates.io/crates/envy) - to parse envs file into struct.
 5. [jsonwebtoken](https://crates.io/crates/jsonwebtoken) - to generate & verify JWT.
-6. [sqlx] - SQL migrations & queries.
+6. [sqlx](https://crates.io/crates/sqlx) - SQL migrations & queries.
