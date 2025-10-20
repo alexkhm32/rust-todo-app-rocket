@@ -1,0 +1,15 @@
+[package]
+name = "todo-app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+argon2 = { version = "0.5.3", features = ["std"] }
+async-trait = "0.1.89"
+dotenv = "0.15.0"
+envy = "0.4.2"
+jsonwebtoken = { version = "10.1.0", features = ["aws_lc_rs"] }
+rocket = { version = "0.5.1", features = ["json"] }
+serde = "1.0.228"
+sqlx = { version = "0.8.6", features = ["postgres", "macros", "migrate", "runtime-tokio", "chrono"] }
+time = { version = "0.3.44", features = ["serde"] }
